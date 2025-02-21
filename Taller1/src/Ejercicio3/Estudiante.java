@@ -26,8 +26,7 @@ public Estudiante (){
     }
 
     public Estudiante(String nombre, int edad, String curso) {
-        this.nombre = nombre;
-        this.edad = edad;
+        this(nombre,edad);
         this.curso = curso;
     }
     public void detallestEstudiante() {
