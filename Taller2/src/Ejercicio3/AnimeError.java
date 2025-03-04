@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Ejercicio3;
+
+/**
+ *
+ * @author elhac
+ */
+public class AnimeError {
+
+    String demografia;
+    String genero;
+    String estudio;
+
+    public static AnimeError() {
+        this.demografia = "Desconocida";
+        this.genero = "Desconocido";
+        this.estudio = "Desconocido";
+    }
+
+    public static AnimeError(String demografia, String genero, String estudio) {
+        this.demografia = demografia;
+        this.genero = genero;
+        this.estudio = estudio;
+
+    }
+
+}
